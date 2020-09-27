@@ -34,12 +34,12 @@ Partial Class DinnerMenuForm
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("French Script MT", 25.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(556, 209)
+        Me.TextBox1.Location = New System.Drawing.Point(457, 210)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(562, 82)
-        Me.TextBox1.TabIndex = 0
+        Me.TextBox1.TabIndex = 4
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'soupButton
@@ -48,7 +48,7 @@ Partial Class DinnerMenuForm
         Me.soupButton.Location = New System.Drawing.Point(155, 733)
         Me.soupButton.Name = "soupButton"
         Me.soupButton.Size = New System.Drawing.Size(246, 149)
-        Me.soupButton.TabIndex = 1
+        Me.soupButton.TabIndex = 0
         Me.soupButton.Text = "Soup"
         Me.soupButton.UseVisualStyleBackColor = True
         '
@@ -56,7 +56,7 @@ Partial Class DinnerMenuForm
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("French Script MT", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(462, 63)
+        Me.Label1.Location = New System.Drawing.Point(340, 41)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(818, 109)
         Me.Label1.TabIndex = 2
@@ -65,48 +65,48 @@ Partial Class DinnerMenuForm
         'SaladButton
         '
         Me.SaladButton.Font = New System.Drawing.Font("French Script MT", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SaladButton.Location = New System.Drawing.Point(716, 733)
+        Me.SaladButton.Location = New System.Drawing.Point(556, 733)
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(246, 149)
-        Me.SaladButton.TabIndex = 3
+        Me.SaladButton.TabIndex = 1
         Me.SaladButton.Text = "Salad"
         Me.SaladButton.UseVisualStyleBackColor = True
         '
         'fishButton
         '
         Me.fishButton.Font = New System.Drawing.Font("French Script MT", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.fishButton.Location = New System.Drawing.Point(1248, 733)
+        Me.fishButton.Location = New System.Drawing.Point(950, 733)
         Me.fishButton.Name = "fishButton"
         Me.fishButton.Size = New System.Drawing.Size(246, 149)
-        Me.fishButton.TabIndex = 4
+        Me.fishButton.TabIndex = 2
         Me.fishButton.Text = "Fish"
         Me.fishButton.UseVisualStyleBackColor = True
         '
         'exitButton
         '
         Me.exitButton.Font = New System.Drawing.Font("French Script MT", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.exitButton.Location = New System.Drawing.Point(36, 23)
+        Me.exitButton.Location = New System.Drawing.Point(38, 12)
         Me.exitButton.Name = "exitButton"
         Me.exitButton.Size = New System.Drawing.Size(126, 63)
-        Me.exitButton.TabIndex = 5
+        Me.exitButton.TabIndex = 3
         Me.exitButton.Text = "Exit"
         Me.exitButton.UseVisualStyleBackColor = True
         '
         'DesciptionBox
         '
         Me.DesciptionBox.Font = New System.Drawing.Font("French Script MT", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DesciptionBox.Location = New System.Drawing.Point(481, 320)
+        Me.DesciptionBox.Location = New System.Drawing.Point(359, 331)
         Me.DesciptionBox.Multiline = True
         Me.DesciptionBox.Name = "DesciptionBox"
         Me.DesciptionBox.ReadOnly = True
         Me.DesciptionBox.Size = New System.Drawing.Size(749, 358)
-        Me.DesciptionBox.TabIndex = 6
+        Me.DesciptionBox.TabIndex = 7
         '
         'DinnerMenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1693, 933)
+        Me.ClientSize = New System.Drawing.Size(1304, 952)
         Me.Controls.Add(Me.DesciptionBox)
         Me.Controls.Add(Me.exitButton)
         Me.Controls.Add(Me.fishButton)
